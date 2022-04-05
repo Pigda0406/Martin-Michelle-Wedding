@@ -1,11 +1,11 @@
 {
-    "name": "group_chat_room_responsive",
-    "short_name": "group_chat_room_responsive",
+    "name": "Martin&Michelle",
+    "short_name": "Martin&Michelle",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
     "theme_color": "#0175C2",
-    "description": "A new Flutter application.",
+    "description": "Martin&Michelle",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
     "icons": [
