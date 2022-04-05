@@ -76,13 +76,13 @@ const RESOURCES = {
 "canvaskit/profiling/canvaskit.js": "ae2949af4efc61d28a4a80fffa1db900",
 "canvaskit/profiling/canvaskit.wasm": "95e736ab31147d1b2c7b25f11d4c32cd",
 "favicon.png": "d47871e48abe8c585d585a68cca17608",
-"favicon2.png": "5dcef449791fa27946b3d35ad8803796",
+"icons/favicon.png": "d47871e48abe8c585d585a68cca17608",
 "icons/Icon-192.png": "ac9a721a12bbc803b44f645561ecb1e1",
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
-"index.html": "4a00cb20b61a1462271e00628c54b958",
-"/": "4a00cb20b61a1462271e00628c54b958",
-"main.dart.js": "51e25f0e1861a94608695119f3b55120",
-"manifest.json": "a046238289156b0ce10ed47b66e7086e",
+"index.html": "c0662d4883969f7446c30eb67ec821f8",
+"/": "c0662d4883969f7446c30eb67ec821f8",
+"main.dart.js": "0519aafe8100110ec7f234aa45ababd8",
+"manifest.json": "91fe89c9bbdb2b3c73f8ea79c4ef8cc8",
 "version.json": "1c374999146835b6664c700b81870973"
 };
 
