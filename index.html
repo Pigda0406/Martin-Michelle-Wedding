@@ -36,6 +36,7 @@
   // Initialize Firebase
   firebase.initializeApp(firebaseConfig);
   firebase.analytics();
+    var database = firebase.database();
 
 </script>
 <!-- This script installs service_worker.js to provide PWA functionality to
@@ -44,7 +45,7 @@
 <script>
     if ('serviceWorker' in navigator) {
       window.addEventListener('load', function () {
-        navigator.serviceWorker.register('flutter_service_worker.js?v=2488113154');
+        navigator.serviceWorker.register('flutter_service_worker.js?v=1312229532');
       });
     }
 
