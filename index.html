@@ -23,6 +23,9 @@
 <script src="https://www.gstatic.com/firebasejs/7.19.1/firebase-firestore.js"></script>
 
 <script>
+import { initializeApp } from "firebase/app";
+import { getFirestore, collection, getDocs } from 'firebase/firestore/lite';
+
   // Your web app's Firebase configuration
   var firebaseConfig = {
   apiKey: "AIzaSyA8V2JQaLMRInKe8ES93T_Fb8X5HDOIymQ",
@@ -34,9 +37,15 @@
   appId: "1:356469835063:web:4ae1fa5816e5ba26c4c6b2"
   };
   // Initialize Firebase
-  firebase.initializeApp(firebaseConfig);
-  firebase.analytics();
+    const app = initializeApp(firebaseConfig);
+    const db = getFirestore(app);
 
+async function getCities(db) {
+  const citiesCol = collection(db, 'cities');
+  const citySnapshot = await getDocs(citiesCol);
+  const cityList = citySnapshot.docs.map(doc => doc.data());
+  return cityList;
+}
 </script>
 <!-- This script installs service_worker.js to provide PWA functionality to
      application. For more information, see:
@@ -44,7 +53,7 @@
 <script>
     if ('serviceWorker' in navigator) {
       window.addEventListener('load', function () {
-        navigator.serviceWorker.register('flutter_service_worker.js?v=1134470794');
+        navigator.serviceWorker.register('flutter_service_worker.js?v=745657274');
       });
     }
 
