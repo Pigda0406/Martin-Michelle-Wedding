@@ -69791,7 +69791,7 @@ return new A.r1(s,r,A.akO(o,o.gfK().ib(0,"globalChatChannel")))},
 $S:425}
 A.JC.prototype={
 K(a,b){var s=A.b([A.Vn(new A.a2e(),t.cv),A.Vn(new A.a2f(),t.BG),A.Vn(new A.a2g(),t.oc),A.Vn(new A.a2h(),t.e8)],t.QZ)
-return A.aBq(new A.yV(A.am(["/",new A.a2i()],t.bD,t.sy),"Flutter Group Chat Room Responsive",!1,null),s)}}
+return A.aBq(new A.yV(A.am(["/",new A.a2i()],t.bD,t.sy),"Martin&Michelle",!1,null),s)}}
 A.a2e.prototype={
 $1(a){var s=$.dC().$1$0(t.cv)
 s.ph()
